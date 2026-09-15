@@ -1,3 +1,49 @@
 # CODSOFT_TASKNO
-https://www.linkedin.com/posts/eesh-pandya-83302a256_datascience-internship-codsoftjourney-activity-7505562411295420417-aoUM
-# CODSOFT_TASKSNO â€” Data Analytics Internship This repository contains my completed tasks for the **CodSoft Data Analytics Internship**. Each task lives in its own folder so it can be reviewed and run independently. | Task | Folder | Description | |------|--------|-------------| | 1 | [`Task1_Data_Cleaning`](./Task1_Data_Cleaning) | Data cleaning & preprocessing with Pandas | | 2 | [`Task2_EDA`](./Task2_EDA) | Exploratory Data Analysis (EDA) | | 3 | [`Task3_Data_Visualization`](./Task3_Data_Visualization) | Visualization dashboard (Matplotlib/Seaborn) | | 4 | [`Task4_Customer_Analysis`](./Task4_Customer_Analysis) | Customer segmentation & insights | | 5 | [`Task5_Web_Scraping`](./Task5_Web_Scraping) | Web data extraction with BeautifulSoup | > Internship rules require completing **at least 3 of the 5 tasks** â€” this repo includes > all five so you can pick your best 3 (or submit all of them) for the LinkedIn/task > submission form. ## Tech Stack - Python 3 - Pandas, NumPy - Matplotlib, Seaborn - BeautifulSoup, Requests ## How to Run Each task folder is self-contained. From inside a task folder: ```bash pip install -r ../requirements.txt python .py ``` Outputs (cleaned CSVs, charts, reports) are written to that task's `outputs/` folder. ## About the Internship Completed as part of the CodSoft Data Analytics Virtual Internship. ðŸ”— [codsoft.in](https://www.codsoft.in) #codsoft #internship #dataanalytics 
+# CODSOFT_TASKSNO — Data Analytics Internship
+
+This repository contains my completed tasks for the **CodSoft Data Analytics
+Internship**. Per the internship guidelines, a minimum of **3 tasks** is
+required for successful completion — this submission covers Tasks 1–3,
+which together form a complete data pipeline: clean the raw data, explore
+it, then visualize the findings.
+
+| Task | Folder | Description |
+|------|--------|-------------|
+| 1 | [`Task1_Data_Cleaning`](./Task1_Data_Cleaning) | Data cleaning & preprocessing with Pandas |
+| 2 | [`Task2_EDA`](./Task2_EDA) | Exploratory Data Analysis (EDA) |
+| 3 | [`Task3_Data_Visualization`](./Task3_Data_Visualization) | Visualization dashboard (Matplotlib/Seaborn) |
+
+## How the tasks connect
+1. **Task 1** takes a raw, messy sales dataset and produces a cleaned
+   `cleaned_sales_data.csv`.
+2. **Task 2** loads that cleaned dataset to run exploratory analysis —
+   stats, trends, correlations, outliers, and business Q&A.
+3. **Task 3** uses the same cleaned dataset to build a 6-panel
+   visualization dashboard summarizing the key findings.
+
+## Tech Stack
+- Python 3
+- Pandas, NumPy
+- Matplotlib, Seaborn
+
+## How to Run
+Each task folder is self-contained. From inside a task folder:
+
+```bash
+pip install -r ../requirements.txt
+python <script_name>.py
+```
+
+Outputs (cleaned CSVs, charts, reports) are written to that task's
+`outputs/` folder.
+
+## Submission Notes
+- GitHub repo name: `CODSOFT_TASKSNO` (as required by the instructions)
+- A demo video walking through the project will be posted on LinkedIn
+  with `#codsoft #internship #dataanalytics`, tagging CodSoft, along with
+  this repo's link.
+
+## About the Internship
+Completed as part of the CodSoft Data Analytics Virtual Internship.
+🔗 [codsoft.in](https://www.codsoft.in)
+
