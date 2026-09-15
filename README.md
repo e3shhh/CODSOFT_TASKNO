@@ -1,49 +1,108 @@
-# CODSOFT_TASKNO
-# CODSOFT_TASKSNO — Data Analytics Internship
+"""
+CodSoft Data Analytics Internship
+Task 1: Data Cleaning & Preprocessing
 
-This repository contains my completed tasks for the **CodSoft Data Analytics
-Internship**. Per the internship guidelines, a minimum of **3 tasks** is
-required for successful completion — this submission covers Tasks 1–3,
-which together form a complete data pipeline: clean the raw data, explore
-it, then visualize the findings.
+Steps:
+1. Import the dataset and inspect its structure.
+2. Identify missing values, duplicate records, and inconsistent entries.
+3. Clean the dataset: handle nulls, remove duplicates, fix data types & text.
+4. Save the cleaned dataset as a new CSV (bonus).
+"""
 
-| Task | Folder | Description |
-|------|--------|-------------|
-| 1 | [`Task1_Data_Cleaning`](./Task1_Data_Cleaning) | Data cleaning & preprocessing with Pandas |
-| 2 | [`Task2_EDA`](./Task2_EDA) | Exploratory Data Analysis (EDA) |
-| 3 | [`Task3_Data_Visualization`](./Task3_Data_Visualization) | Visualization dashboard (Matplotlib/Seaborn) |
+import pandas as pd
+import numpy as np
 
-## How the tasks connect
-1. **Task 1** takes a raw, messy sales dataset and produces a cleaned
-   `cleaned_sales_data.csv`.
-2. **Task 2** loads that cleaned dataset to run exploratory analysis —
-   stats, trends, correlations, outliers, and business Q&A.
-3. **Task 3** uses the same cleaned dataset to build a 6-panel
-   visualization dashboard summarizing the key findings.
+RAW_PATH = "data/raw_sales_data.csv"
+CLEAN_PATH = "outputs/cleaned_sales_data.csv"
 
-## Tech Stack
-- Python 3
-- Pandas, NumPy
-- Matplotlib, Seaborn
 
-## How to Run
-Each task folder is self-contained. From inside a task folder:
+def load_and_inspect(path):
+    df = pd.read_csv(path)
+    print("=" * 60)
+    print("STEP 1: INSPECT RAW DATA")
+    print("=" * 60)
+    print(f"Shape: {df.shape}")
+    print("\nColumn dtypes:\n", df.dtypes)
+    print("\nFirst 5 rows:\n", df.head())
+    print("\nMissing values per column:\n", df.isnull().sum())
+    print(f"\nExact duplicate rows: {df.duplicated().sum()}")
+    return df
 
-```bash
-pip install -r ../requirements.txt
-python <script_name>.py
-```
 
-Outputs (cleaned CSVs, charts, reports) are written to that task's
-`outputs/` folder.
+def clean_data(df):
+    print("\n" + "=" * 60)
+    print("STEP 2: CLEAN THE DATA")
+    print("=" * 60)
 
-## Submission Notes
-- GitHub repo name: `CODSOFT_TASKSNO` (as required by the instructions)
-- A demo video walking through the project will be posted on LinkedIn
-  with `#codsoft #internship #dataanalytics`, tagging CodSoft, along with
-  this repo's link.
+    df = df.copy()
 
-## About the Internship
-Completed as part of the CodSoft Data Analytics Virtual Internship.
-🔗 [codsoft.in](https://www.codsoft.in)
+    # --- Remove exact duplicate rows ---
+    before = len(df)
+    df = df.drop_duplicates()
+    print(f"Removed {before - len(df)} exact duplicate rows.")
 
+    # --- Standardize text columns (strip whitespace, fix casing) ---
+    df["City"] = df["City"].astype(str).str.strip().str.title()
+    df["City"] = df["City"].replace("Nan", np.nan)
+
+    df["PaymentMethod"] = df["PaymentMethod"].astype(str).str.strip().str.title()
+
+    df["CustomerName"] = df["CustomerName"].astype(str).str.strip()
+    df["CustomerName"] = df["CustomerName"].replace("Nan", np.nan)
+
+    # --- Fix inconsistent date formats (mixed YYYY-MM-DD and DD/MM/YYYY) ---
+    df["OrderDate"] = pd.to_datetime(df["OrderDate"], format="mixed", dayfirst=False, errors="coerce")
+
+    # --- Fix invalid Quantity (negative values are data-entry errors) ---
+    invalid_qty = (df["Quantity"] <= 0).sum()
+    print(f"Invalid (non-positive) Quantity values found: {invalid_qty}")
+    df = df[df["Quantity"] > 0]
+
+    # --- Handle missing values ---
+    # Numeric: fill Age with median, Rating left as-is (genuinely "no rating given")
+    df["Age"] = df["Age"].fillna(df["Age"].median())
+    df["Age"] = df["Age"].astype(int)
+
+    # Categorical: fill missing City/CustomerName with 'Unknown'
+    df["City"] = df["City"].fillna("Unknown")
+    df["CustomerName"] = df["CustomerName"].fillna("Unknown")
+
+    # Drop rows where OrderDate could not be parsed (unusable for analysis)
+    before = len(df)
+    df = df.dropna(subset=["OrderDate"])
+    print(f"Dropped {before - len(df)} rows with unparseable OrderDate.")
+
+    # --- Correct data types ---
+    df["UnitPrice"] = df["UnitPrice"].astype(float).round(2)
+    df["Quantity"] = df["Quantity"].astype(int)
+    df["Rating"] = df["Rating"].astype("Int64")  # nullable integer, keeps NaN for "no rating"
+
+    # --- Feature engineering: total order value ---
+    df["TotalAmount"] = (df["UnitPrice"] * df["Quantity"]).round(2)
+
+    # --- Final duplicate check on key business columns ---
+    before = len(df)
+    df = df.drop_duplicates(subset=["OrderID"])
+    print(f"Removed {before - len(df)} duplicate OrderIDs.")
+
+    df = df.reset_index(drop=True)
+    return df
+
+
+def summarize(df):
+    print("\n" + "=" * 60)
+    print("STEP 3: CLEANED DATA SUMMARY")
+    print("=" * 60)
+    print(f"Final shape: {df.shape}")
+    print("\nMissing values per column after cleaning:\n", df.isnull().sum())
+    print("\nDtypes after cleaning:\n", df.dtypes)
+    print("\nDescriptive stats:\n", df.describe(include="all").transpose())
+
+
+if __name__ == "__main__":
+    raw_df = load_and_inspect(RAW_PATH)
+    clean_df = clean_data(raw_df)
+    summarize(clean_df)
+
+    clean_df.to_csv(CLEAN_PATH, index=False)
+    print(f"\nCleaned dataset saved to: {CLEAN_PATH}")
