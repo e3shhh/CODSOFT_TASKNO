@@ -1,0 +1,516 @@
+OrderID,CustomerID,CustomerName,Age,City,Category,UnitPrice,Quantity,OrderDate,PaymentMethod,Rating
+ORD10490,CUST1050,Mia Kumar,69.0,DELHI,Beauty,15.57,5,2024-07-02,credit card,2.0
+ORD10430,CUST1210,Aisha Khan,60.0,Chicago,Books,361.53,-1,2024-12-11,Cash,4.0
+ORD10083,CUST1083,Sara Garcia,39.0,DELHI,Grocery,147.67,5,20/02/2025,CASH,5.0
+ORD10121,CUST1121,Neha Ali,60.0,London,Home & Kitchen,344.98,-1,2024-02-04,Credit Card,
+ORD10222,CUST1002,David Reddy,38.0,Chicago,Home & Kitchen,153.44,2,2025-01-21,Net Banking,4.0
+ORD10148,CUST1148,Aisha Garcia,64.0,Mumbai,Toys,185.33,2,2025-05-11,Cash,5.0
+ORD10033,CUST1033,Neha Gupta,20.0,London,Home & Kitchen,320.37,3,2024-03-23,credit card,4.0
+ORD10386,CUST1166,Anna Sharma,70.0,Bangalore ,Grocery,169.33,-1,2025-01-01,credit card,3.0
+ORD10201,CUST1201,Mia Garcia,44.0,Toronto,Beauty,379.18,3,2024-06-13,UPI,
+ORD10482,CUST1042,John Nair,31.0,Chicago,Sports,393.93,-1,2024-07-09,Cash,
+ORD10296,CUST1076,Sophia Iyer,28.0,Bangalore,Sports,387.8,1,26/04/2024,credit card,5.0
+ORD10262,CUST1042,Carlos Brown,35.0,Singapore,Clothing,400.75,2,2024-07-06,UPI,2.0
+ORD10434,CUST1214,Liam Garcia,57.0,New York,Home & Kitchen,363.47,4,2025-04-17,Cash,5.0
+ORD10475,CUST1035,Neha Reddy,58.0,New York,Books,243.42,2,2025-02-16,Credit Card,4.0
+ORD10460,CUST1020,Sara Ali,,Bangalore ,Sports,97.64,3,2024-05-01,UPI,4.0
+ORD10458,CUST1018,Raj Davis,,Bangalore,Electronics,265.24,5,2024-09-01,Net Banking,1.0
+ORD10356,CUST1136,Priya Iyer,,Bangalore ,Beauty,174.87,2,2024-12-17,Net Banking,
+ORD10467,CUST1027,Tom Patel,,New York,Grocery,317.7,2,2025-03-20,Debit Card,
+ORD10116,CUST1116,Tom Kumar,,Delhi,Grocery,254.4,1,2025-01-07,CASH,
+ORD10404,CUST1184,Anna Lee,,Dubai,Grocery,498.33,1,2024-02-28,credit card,3.0
+ORD10014,CUST1014,Arjun Garcia,50.0,Bangalore ,Sports,421.63,2,2024-03-19,UPI,
+ORD10275,CUST1055,Wei Johnson,27.0,Bangalore ,Beauty,381.93,5,2024-09-07,Debit Card,5.0
+ORD10309,CUST1089,Tom Clark,65.0,Pune,Clothing,233.71,2,2024-03-03,Credit Card,1.0
+ORD10486,CUST1046,Priya Clark,51.0,New York,Grocery,321.07,2,2024-07-03,Credit Card,
+ORD10337,CUST1117,Sophia Iyer,33.0,New York,Clothing,200.43,1,2024-09-14,Net Banking,5.0
+ORD10498,CUST1058,Neha Kumar,68.0,Bangalore ,Sports,266.87,1,2025-03-03,UPI,1.0
+ORD10133,CUST1133,David Singh,36.0,Chicago,Electronics,483.27,2,2025-02-14,Net Banking,4.0
+ORD10376,CUST1156,Fatima Ali,40.0,Singapore,Sports,439.85,1,2024-07-09,CASH,3.0
+ORD10260,CUST1040,Fatima Johnson,51.0,Dubai,Home & Kitchen,168.84,5,2025-05-05,Cash,2.0
+ORD10269,CUST1049,Lisa Garcia,67.0,Singapore,Grocery,277.11,1,2024-10-20,Credit Card,3.0
+ORD10279,CUST1059,Sophia Ali,61.0,Mumbai,Clothing,314.96,-1,2024-01-09,Credit Card,
+ORD10497,CUST1057,Amit Smith,31.0,Bangalore ,Clothing,236.69,1,2024-07-03,Net Banking,
+ORD10302,CUST1082,John Ali,18.0,Bangalore ,Sports,56.45,2,2024-08-02,Cash,1.0
+ORD10147,CUST1147,Arjun Sharma,60.0, Pune,Home & Kitchen,300.64,2,2024-03-24,Debit Card,
+ORD10026,CUST1026,Priya Ali,21.0,Singapore,Grocery,253.91,2,2024-01-30,Net Banking,1.0
+ORD10485,CUST1045,Sara Reddy,60.0,Toronto,Toys,342.31,3,2025-04-24,UPI,2.0
+ORD10314,CUST1094,Raj Davis,26.0,Pune,Beauty,317.22,1,2024-07-14,CASH,
+ORD10247,CUST1027,David Patel,64.0,Pune,Home & Kitchen,344.23,2,2024-03-12,UPI,3.0
+ORD10347,CUST1127,Liam Smith,29.0,Bangalore ,Beauty,419.3,2,2024-01-17,Cash,1.0
+ORD10223,CUST1003,Emma Lee,63.0, Pune,Grocery,457.8,5,2025-05-10,Cash,5.0
+ORD10419,CUST1199,Emma Singh,35.0,Bangalore,Books,439.55,-1,2024-08-16,UPI,
+ORD10052,CUST1052,Amit Singh,44.0,Dubai,Grocery,210.81,2,2025-03-02,Cash,4.0
+ORD10259,CUST1039,Tom Wilson,38.0,New York,Electronics,406.04,1,2024-01-12,CASH,3.0
+ORD10428,CUST1208,Amit Reddy,34.0,Pune,Toys,179.68,4,2024-09-06,CASH,4.0
+ORD10041,CUST1041,Arjun Khan,,Pune,Sports,26.97,5,2024-01-01,Net Banking,
+ORD10090,CUST1090,John Lee,64.0,Bangalore ,Grocery,433.3,-1,2024-10-02,Cash,3.0
+ORD10207,CUST1207,Wei Nair,38.0,Mumbai,Sports,194.87,-1,2025-01-20,UPI,3.0
+ORD10240,CUST1020,Priya Garcia,38.0,Pune,Home & Kitchen,377.37,5,2025-04-20,Credit Card,3.0
+ORD10483,CUST1043,Mohammed Patel,66.0,Mumbai,Sports,388.95,1,2024-10-05,Cash,2.0
+ORD10239,CUST1019,Priya Johnson,,Toronto,Sports,28.05,1,2024-12-16,UPI,5.0
+ORD10480,CUST1040,Wei Lee,25.0,Singapore,Grocery,139.71,-1,2024-04-06,UPI,1.0
+ORD10311,CUST1091,Amit Brown,59.0, Pune,Home & Kitchen,50.53,4,2024-03-03,Credit Card,4.0
+ORD10004,CUST1004,Mohammed Gupta,27.0, Pune,Books,55.59,5,2024-02-19,UPI,
+ORD10180,CUST1180,Mia Lee,59.0,Toronto,Beauty,403.32,5,2024-06-01,Cash,1.0
+ORD10249,CUST1029,Sophia Moore,57.0,Toronto,Clothing,72.07,1,2025-04-30,Cash,3.0
+ORD10293,CUST1073,Amit Singh,25.0,Singapore,Electronics,158.1,2,2024-03-02,Credit Card,
+ORD10066,CUST1066,Raj Clark,18.0,Pune,Clothing,124.47,5,2024-09-07,Net Banking,
+ORD10139,CUST1139,Priya Sharma,41.0,Delhi,Clothing,309.43,5,2024-08-24,Net Banking,5.0
+ORD10437,CUST1217,Neha Reddy,44.0,Bangalore ,Electronics,350.33,5,2024-04-27,CASH,4.0
+ORD10304,CUST1084,Arjun Chen,58.0,Delhi,Electronics,220.32,2,2024-05-01,UPI,3.0
+ORD10114,CUST1114,Wei Chen,52.0, Pune,Home & Kitchen,59.41,1,2024-03-08,Credit Card,3.0
+ORD10469,CUST1029,Mohammed Lee,63.0,Singapore,Toys,139.27,-1,2025-02-03,CASH,3.0
+ORD10169,CUST1169,Arjun Kumar,43.0,mumbai,Sports,128.56,1,2024-01-14,credit card,2.0
+ORD10102,CUST1102,Lisa Johnson,56.0,Pune,Beauty,312.34,2,2024-11-17,Credit Card,
+ORD10373,CUST1153,Mohammed Johnson,18.0,mumbai,Clothing,453.91,-1,2024-03-17,Credit Card,
+ORD10214,CUST1214,John Brown,55.0,Mumbai,Toys,175.54,1,2024-10-04,Credit Card,1.0
+ORD10406,CUST1186,John Reddy,70.0,Dubai,Grocery,245.97,3,2025-04-04,credit card,2.0
+ORD10341,CUST1121,Liam Iyer,66.0,Delhi,Clothing,393.94,4,2025-03-25,Cash,3.0
+ORD10461,CUST1021,Mohammed Kumar,29.0,Chicago,Beauty,212.45,4,2024-07-05,CASH,4.0
+ORD10338,CUST1118,Aisha Chen,25.0,Bangalore,Home & Kitchen,486.22,2,2024-03-05,Credit Card,4.0
+ORD10452,CUST1012,Tom Wilson,55.0,Toronto,Clothing,132.62,5,2024-11-20,CASH,2.0
+ORD10194,CUST1194,,62.0,Chicago,Grocery,437.04,1,2024-12-27,Debit Card,5.0
+ORD10061,CUST1061,Emma Khan,62.0,Bangalore ,Clothing,399.13,1,2024-06-26,Net Banking,4.0
+ORD10417,CUST1197,Mohammed Kumar,26.0,,Sports,311.66,2,2024-06-11,Cash,4.0
+ORD10315,CUST1095,Mia Nair,,Dubai,Books,197.25,2,2024-01-14,UPI,5.0
+ORD10119,CUST1119,Mohammed Davis,56.0,New York,Grocery,255.25,5,2024-02-20,CASH,
+ORD10370,CUST1150,John Lee,44.0,mumbai,Sports,313.28,2,2024-08-02,CASH,1.0
+ORD10426,CUST1206,Anna Davis,48.0,Mumbai,Electronics,490.39,4,2024-02-22,credit card,5.0
+ORD10110,CUST1110,Sophia Moore,44.0,Mumbai,Books,112.55,-1,2025-05-01,Debit Card,
+ORD10348,CUST1128,Carlos Gupta,41.0,,Toys,319.53,1,2024-12-14,Credit Card,2.0
+ORD10450,CUST1010,David Iyer,18.0,Bangalore,Toys,255.59,1,2024-09-14,UPI,3.0
+ORD10362,CUST1142,Fatima Ali,58.0,Mumbai,Grocery,140.4,2,2024-10-22,CASH,2.0
+ORD10091,CUST1091,Mia Davis,47.0,Bangalore ,Beauty,490.48,2,2024-10-19,Cash,2.0
+ORD10156,CUST1156,,22.0,Bangalore ,Grocery,300.39,1,2024-11-19,Net Banking,5.0
+ORD10264,CUST1044,Fatima Lee,,Delhi,Home & Kitchen,160.03,2,2024-06-05,Credit Card,2.0
+ORD10307,CUST1087,Tom Gupta,25.0,Bangalore,Sports,414.06,1,2024-04-20,CASH,
+ORD10031,CUST1031,Mia Lee,60.0,Bangalore,Sports,62.14,1,2025-01-15,Net Banking,2.0
+ORD10023,CUST1023,Amit Wilson,69.0,Delhi,Electronics,327.81,1,2025-05-11,Credit Card,
+ORD10306,CUST1086,Wei Khan,28.0,Toronto,Books,206.22,4,2025-05-08,CASH,2.0
+ORD10032,CUST1032,Aisha Brown,63.0,Pune,Sports,255.18,3,2025-04-08,CASH,1.0
+ORD10238,CUST1018,John Garcia,23.0,Bangalore ,Toys,324.23,4,2024-10-16,CASH,1.0
+ORD10327,CUST1107,John Sharma,42.0,DELHI,Toys,484.71,5,2024-09-09,Cash,3.0
+ORD10053,CUST1053,Liam Smith,,Chicago,Grocery,7.92,4,2024-06-01,CASH,4.0
+ORD10491,CUST1051,,63.0,Dubai,Sports,273.65,-1,2024-04-07,Net Banking,2.0
+ORD10165,CUST1165,Mohammed Lee,37.0,,Toys,87.49,-1,2024-06-28,Cash,1.0
+ORD10217,CUST1217,John Smith,37.0,mumbai,Toys,268.31,2,2024-05-06,Cash,3.0
+ORD10163,CUST1163,Mohammed Gupta,25.0,Chicago,Toys,372.94,5,2024-06-22,Debit Card,4.0
+ORD10366,CUST1146,Aisha Reddy,39.0,mumbai,Home & Kitchen,174.65,-1,2024-07-02,CASH,2.0
+ORD10057,CUST1057,Neha Gupta,23.0,Mumbai,Electronics,499.95,4,2024-04-24,credit card,1.0
+ORD10471,CUST1031,Amit Brown,28.0,Delhi,Clothing,36.58,-1,2024-10-07,Credit Card,1.0
+ORD10003,CUST1003,Mia Singh,32.0,Singapore,Sports,405.67,1,2025-01-23,CASH,2.0
+ORD10059,CUST1059,Carlos Wilson,62.0, Pune,Books,88.06,1,2025-02-02,CASH,2.0
+ORD10372,CUST1152,Carlos Kumar,63.0,New York,Home & Kitchen,24.51,-1,2025-04-11,Debit Card,
+ORD10241,CUST1021,Emma Iyer,42.0,London,Toys,379.03,2,2025-02-08,credit card,
+ORD10268,CUST1048,Tom Nair,28.0,Singapore,Electronics,398.96,2,2024-05-29,Credit Card,3.0
+ORD10500,CUST1060,Mia Singh,65.0, Pune,Books,338.87,5,2025-03-28,Credit Card,2.0
+ORD10075,CUST1075,Lisa Iyer,57.0,Singapore,Clothing,474.06,2,2024-11-16,Debit Card,3.0
+ORD10331,CUST1111,Mohammed Brown,30.0,DELHI,Sports,332.0,3,2024-05-01,Credit Card,1.0
+ORD10477,CUST1037,Sophia Nair,37.0, Pune,Toys,399.99,2,2025-02-11,Credit Card,5.0
+ORD10422,CUST1202,,52.0,Toronto,Home & Kitchen,186.08,2,2025-04-01,CASH,5.0
+ORD10278,CUST1058,Carlos Singh,70.0,Toronto,Sports,164.82,3,2024-06-21,Net Banking,5.0
+ORD10081,CUST1081,Liam Iyer,19.0,Singapore,Electronics,382.74,2,2024-08-28,Net Banking,
+ORD10243,CUST1023,Raj Wilson,49.0,London,Toys,218.76,5,2024-02-13,CASH,5.0
+ORD10027,CUST1027,Amit Moore,22.0,Chicago,Clothing,471.09,2,2024-10-23,Net Banking,1.0
+ORD10203,CUST1203,Priya Davis,68.0,Bangalore,Sports,438.99,1,2024-06-01,Net Banking,5.0
+ORD10213,CUST1213,Neha Wilson,54.0,Dubai,Grocery,338.02,3,2025-01-05,Credit Card,4.0
+ORD10282,CUST1062,Amit Khan,18.0,Toronto,Clothing,70.69,2,22/09/2024,credit card,4.0
+ORD10354,CUST1134,Mohammed Gupta,58.0,Bangalore ,Sports,134.27,3,2024-04-06,Debit Card,5.0
+ORD10365,CUST1145,Sara Davis,,New York,Home & Kitchen,37.32,1,2024-06-01,UPI,4.0
+ORD10146,CUST1146,Sophia Brown,32.0,Bangalore,Clothing,151.42,1,2024-09-16,CASH,5.0
+ORD10421,CUST1201,Amit Patel,19.0,mumbai,Electronics,407.26,5,2025-01-28,Net Banking,2.0
+ORD10109,CUST1109,Mia Chen,42.0,London,Toys,295.73,2,2025-03-29,Cash,
+ORD10051,CUST1051,Lisa Johnson,35.0,London,Clothing,73.5,2,2024-07-15,credit card,2.0
+ORD10436,CUST1216,Sophia Moore,56.0, Pune,Clothing,51.13,2,2025-04-06,Net Banking,5.0
+ORD10301,CUST1081,Liam Nair,67.0,DELHI,Beauty,79.53,5,2024-01-13,Debit Card,5.0
+ORD10015,CUST1015,Arjun Smith,56.0,Toronto,Electronics,60.37,4,2025-03-25,CASH,
+ORD10465,CUST1025,Sara Wilson,65.0,New York,Books,183.35,3,2024-06-25,Credit Card,4.0
+ORD10391,CUST1171,Fatima Iyer,29.0,Delhi,Toys,330.47,4,2024-09-15,Cash,4.0
+ORD10115,CUST1115,Emma Iyer,38.0,Bangalore,Sports,30.94,5,2024-09-26,Credit Card,
+ORD10244,CUST1024,Emma Patel,23.0,Bangalore,Toys,357.28,2,2025-01-13,Cash,3.0
+ORD10060,CUST1060,Sara Iyer,19.0,Singapore,Toys,201.34,2,2024-02-08,Net Banking,
+ORD10174,CUST1174,,,Delhi,Clothing,158.1,-1,2024-09-26,Cash,
+ORD10099,CUST1099,Tom Lee,61.0,Bangalore,Clothing,223.66,4,2024-10-27,UPI,
+ORD10160,CUST1160,Wei Sharma,40.0,London,Home & Kitchen,416.04,-1,2024-12-22,Cash,
+ORD10250,CUST1030,David Ali,46.0,Chicago,Home & Kitchen,153.72,2,2024-09-02,UPI,2.0
+ORD10042,CUST1042,Carlos Kumar,45.0,mumbai,Books,313.46,1,2025-01-03,UPI,5.0
+ORD10271,CUST1051,Emma Lee,20.0,New York,Books,431.79,1,2024-08-12,CASH,1.0
+ORD10205,CUST1205,Sara Ali,28.0,,Sports,360.71,1,2025-01-12,UPI,
+ORD10218,CUST1218,Carlos Khan,20.0,Singapore,Electronics,124.13,1,2024-02-21,Net Banking,1.0
+ORD10080,CUST1080,Sophia Wilson,,Mumbai,Toys,368.59,3,2024-01-14,Credit Card,2.0
+ORD10029,CUST1029,Lisa Wilson,38.0,Mumbai,Grocery,312.47,1,2024-02-07,Net Banking,2.0
+ORD10345,CUST1125,Neha Moore,59.0,Pune,Grocery,109.64,5,2025-01-14,Cash,
+ORD10364,CUST1144,Anna Smith,38.0,Pune,Electronics,339.99,2,2024-04-25,credit card,3.0
+ORD10257,CUST1037,Liam Johnson,46.0,Chicago,Grocery,387.31,2,2024-06-25,Credit Card,4.0
+ORD10466,CUST1026,,,mumbai,Home & Kitchen,489.79,3,2024-06-30,UPI,
+ORD10058,CUST1058,Priya Smith,33.0,Bangalore ,Electronics,312.56,2,2024-03-05,Cash,
+ORD10427,CUST1207,Raj Gupta,55.0,Singapore,Home & Kitchen,191.45,5,2024-07-06,Net Banking,
+ORD10063,CUST1063,Tom Chen,45.0,DELHI,Sports,309.88,-1,2024-08-26,Cash,
+ORD10388,CUST1168,Priya Garcia,49.0,Bangalore ,Toys,57.95,2,2024-04-06,Credit Card,
+ORD10112,CUST1112,Carlos Moore,19.0, Pune,Books,125.57,2,2025-02-06,Net Banking,2.0
+ORD10085,CUST1085,,51.0,Singapore,Grocery,314.58,1,2024-04-14,UPI,5.0
+ORD10237,CUST1017,Emma Johnson,37.0,mumbai,Electronics,51.28,5,2024-07-12,Net Banking,4.0
+ORD10272,CUST1052,Emma Brown,,DELHI,Books,431.22,5,2024-03-25,Net Banking,2.0
+ORD10343,CUST1123,Priya Davis,39.0,Mumbai,Grocery,460.81,4,2024-01-11,UPI,
+ORD10228,CUST1008,Tom Clark,59.0,New York,Sports,183.02,-1,2024-08-26,Credit Card,
+ORD10130,CUST1130,David Moore,21.0,Pune,Sports,472.94,2,2025-01-26,UPI,3.0
+ORD10166,CUST1166,Anna Moore,45.0,mumbai,Electronics,42.15,5,2024-07-05,Net Banking,
+ORD10097,CUST1097,Anna Singh,27.0,Dubai,Toys,285.13,2,2024-03-28,Debit Card,1.0
+ORD10489,CUST1049,Aisha Ali,66.0,,Books,324.06,1,2024-03-05,Cash,2.0
+ORD10297,CUST1077,John Johnson,20.0,London,Toys,460.51,2,2025-04-21,CASH,1.0
+ORD10480,CUST1040,Wei Lee,25.0,Singapore,Grocery,139.71,-1,2024-04-06,UPI,1.0
+ORD10142,CUST1142,Anna Lee,42.0, Pune,Books,341.05,1,2025-02-08,credit card,
+ORD10464,CUST1024,Mohammed Nair,37.0,Dubai,Electronics,202.21,2,2024-01-31,Debit Card,
+ORD10188,CUST1188,Wei Khan,43.0, Pune,Books,281.13,4,2025-01-21,Debit Card,2.0
+ORD10369,CUST1149,Priya Khan,44.0,Chicago,Clothing,275.9,-1,2024-12-25,Debit Card,2.0
+ORD10221,CUST1001,Raj Sharma,,DELHI,Home & Kitchen,314.87,5,2024-10-11,Cash,1.0
+ORD10229,CUST1009,Sophia Ali,31.0,London,Toys,27.63,2,2025-01-14,Debit Card,1.0
+ORD10323,CUST1103,Sophia Ali,29.0,DELHI,Books,115.5,2,2024-07-12,UPI,
+ORD10396,CUST1176,Carlos Gupta,66.0,New York,Sports,77.48,1,2024-12-19,CASH,3.0
+ORD10360,CUST1140,Aisha Patel,48.0,Dubai,Clothing,434.41,5,2024-09-28,UPI,4.0
+ORD10082,CUST1082,Raj Garcia,55.0,mumbai,Grocery,484.68,-1,2024-06-27,Cash,3.0
+ORD10355,CUST1135,Priya Moore,43.0,mumbai,Home & Kitchen,362.04,-1,2024-05-31,UPI,4.0
+ORD10322,CUST1102,David Iyer,24.0,New York,Books,72.54,2,2025-01-09,Cash,
+ORD10067,CUST1067,Sophia Nair,46.0,Delhi,Sports,114.69,2,2024-06-05,credit card,5.0
+ORD10435,CUST1215,Emma Davis,42.0,Delhi,Electronics,105.16,5,2025-02-27,Debit Card,5.0
+ORD10415,CUST1195,Wei Garcia,29.0,Singapore,Sports,101.19,2,2024-12-09,CASH,5.0
+ORD10189,CUST1189,David Reddy,20.0,Mumbai,Home & Kitchen,358.23,-1,2024-09-22,Cash,2.0
+ORD10335,CUST1115,Tom Wilson,34.0,Bangalore ,Sports,284.3,2,2025-01-20,credit card,
+ORD10054,CUST1054,Neha Clark,65.0, Pune,Beauty,246.67,3,2024-08-11,Cash,1.0
+ORD10172,CUST1172,Mohammed Kumar,63.0,Dubai,Sports,446.21,2,2024-12-30,credit card,
+ORD10385,CUST1165,Mia Smith,70.0, Pune,Sports,445.6,2,2024-12-01,credit card,4.0
+ORD10140,CUST1140,Priya Wilson,,mumbai,Beauty,164.16,-1,2024-09-13,Debit Card,1.0
+ORD10274,CUST1054,Raj Reddy,61.0,Bangalore,Toys,459.79,3,2025-03-19,credit card,2.0
+ORD10285,CUST1065,Fatima Wilson,40.0,mumbai,Home & Kitchen,460.35,-1,2025-03-16,Debit Card,1.0
+ORD10067,CUST1067,Sophia Nair,46.0,Delhi,Sports,114.69,2,2024-06-05,credit card,5.0
+ORD10439,CUST1219,Aisha Clark,44.0,Pune,Electronics,356.03,1,2024-10-22,Net Banking,1.0
+ORD10032,CUST1032,Aisha Brown,63.0,Pune,Sports,255.18,3,2025-04-08,CASH,1.0
+ORD10295,CUST1075,Sara Smith,39.0,New York,Clothing,135.16,1,2024-09-11,Cash,5.0
+ORD10233,CUST1013,John Singh,26.0,Delhi,Home & Kitchen,9.53,-1,2024-07-10,Credit Card,5.0
+ORD10100,CUST1100,Raj Wilson,37.0,Chicago,Grocery,57.79,5,2024-10-19,UPI,5.0
+ORD10284,CUST1064,Anna Lee,26.0, Pune,Home & Kitchen,322.58,2,05/02/2024,Net Banking,5.0
+ORD10149,CUST1149,Tom Johnson,52.0,New York,Grocery,452.47,2,2024-07-07,credit card,5.0
+ORD10016,CUST1016,Priya Johnson,54.0,Delhi,Grocery,408.93,2,2024-03-06,credit card,4.0
+ORD10164,CUST1164,Anna Reddy,35.0,DELHI,Toys,44.07,2,2024-10-06,UPI,3.0
+ORD10290,CUST1070,Sophia Patel,,Delhi,Electronics,134.78,1,2025-04-17,Credit Card,
+ORD10047,CUST1047,Neha Iyer,30.0,Toronto,Toys,125.77,1,2025-04-02,CASH,
+ORD10087,CUST1087,Mia Singh,23.0,Bangalore ,Clothing,233.42,1,2024-11-27,CASH,2.0
+ORD10038,CUST1038,Emma Brown,70.0,London,Sports,411.17,2,2024-04-24,Credit Card,
+ORD10423,CUST1203,Lisa Chen,47.0,Dubai,Clothing,201.41,1,2024-12-05,Debit Card,
+ORD10371,CUST1151,Aisha Khan,36.0, Pune,Clothing,251.38,2,2025-02-02,UPI,
+ORD10425,CUST1205,Priya Johnson,66.0,Pune,Clothing,135.86,2,2024-01-22,credit card,2.0
+ORD10446,CUST1006,Aisha Sharma,67.0,mumbai,Grocery,222.29,2,2025-03-11,credit card,
+ORD10294,CUST1074,John Garcia,49.0,Dubai,Sports,87.65,2,2025-01-18,CASH,
+ORD10173,CUST1173,Anna Reddy,32.0,Pune,Home & Kitchen,122.18,-1,2024-01-14,UPI,5.0
+ORD10074,CUST1074,Neha Moore,,Pune,Toys,228.0,-1,2024-06-01,CASH,5.0
+ORD10281,CUST1061,Anna Gupta,23.0,mumbai,Home & Kitchen,30.63,3,2025-01-06,credit card,
+ORD10105,CUST1105,Lisa Ali,69.0,Toronto,Clothing,74.67,2,2025-03-16,credit card,
+ORD10358,CUST1138,Mia Garcia,61.0,mumbai,Clothing,115.02,2,2025-01-16,CASH,3.0
+ORD10254,CUST1034,Neha Davis,22.0,Singapore,Grocery,293.21,5,2024-10-05,Credit Card,
+ORD10017,CUST1017,Fatima Gupta,,,Beauty,464.81,2,2024-12-31,UPI,4.0
+ORD10447,CUST1007,Carlos Sharma,,Dubai,Beauty,309.52,1,03/07/2024,Debit Card,
+ORD10092,CUST1092,Neha Sharma,38.0,DELHI,Toys,196.11,2,2024-09-10,Credit Card,2.0
+ORD10089,CUST1089,Aisha Reddy,65.0,Bangalore ,Clothing,141.74,5,2024-06-23,CASH,5.0
+ORD10387,CUST1167,Sara Khan,66.0,Mumbai,Books,180.79,3,2024-10-07,Net Banking,3.0
+ORD10141,CUST1141,Mohammed Patel,50.0,Mumbai,Beauty,355.27,-1,2024-09-25,Net Banking,5.0
+ORD10195,CUST1195,Mohammed Nair,51.0,London,Home & Kitchen,232.53,4,2024-10-06,UPI,
+ORD10206,CUST1206,,57.0,Bangalore ,Toys,260.06,1,2024-07-24,credit card,1.0
+ORD10103,CUST1103,Lisa Wilson,,,Home & Kitchen,49.62,3,2024-06-16,credit card,4.0
+ORD10265,CUST1045,Wei Reddy,42.0,Singapore,Home & Kitchen,289.53,5,2024-04-05,Cash,
+ORD10175,CUST1175,Liam Patel,26.0,mumbai,Clothing,227.74,4,2024-03-06,CASH,
+ORD10171,CUST1171,Sophia Brown,25.0,Bangalore ,Clothing,228.76,-1,2024-02-14,CASH,
+ORD10389,CUST1169,Tom Brown,63.0,Delhi,Toys,28.02,1,2025-01-30,Cash,4.0
+ORD10158,CUST1158,Anna Patel,51.0,Dubai,Electronics,198.27,-1,2024-01-23,credit card,4.0
+ORD10071,CUST1071,Wei Gupta,20.0,Dubai,Sports,350.22,2,2024-11-22,CASH,
+ORD10134,CUST1134,Anna Patel,45.0,Pune,Toys,296.49,1,2024-07-21,CASH,3.0
+ORD10455,CUST1015,Carlos Nair,65.0,Pune,Beauty,437.01,2,2024-04-27,Debit Card,
+ORD10250,CUST1030,David Ali,46.0,Chicago,Home & Kitchen,153.72,2,2024-09-02,UPI,2.0
+ORD10379,CUST1159,Aisha Davis,67.0,Singapore,Electronics,431.98,2,2024-09-04,Cash,1.0
+ORD10363,CUST1143,Amit Chen,57.0,mumbai,Toys,204.68,-1,2024-07-15,Credit Card,1.0
+ORD10246,CUST1026,Arjun Singh,24.0,Delhi,Books,279.34,4,2025-03-18,Cash,1.0
+ORD10470,CUST1030,Arjun Wilson,44.0,Bangalore,Electronics,66.89,2,2024-12-04,UPI,
+ORD10432,CUST1212,Liam Chen,21.0,New York,Home & Kitchen,260.74,5,02/11/2024,Net Banking,
+ORD10353,CUST1133,Aisha Davis,55.0,Mumbai,Books,282.92,3,2024-06-01,credit card,1.0
+ORD10245,CUST1025,Amit Smith,37.0,London,Sports,55.6,1,2024-04-05,Cash,4.0
+ORD10019,CUST1019,Emma Smith,22.0,Pune,Clothing,453.18,4,2024-02-06,Net Banking,2.0
+ORD10178,CUST1178,Amit Reddy,59.0,Singapore,Home & Kitchen,89.74,4,2025-03-07,Net Banking,1.0
+ORD10410,CUST1190,Neha Davis,46.0,Chicago,Books,13.36,1,2024-09-30,Credit Card,
+ORD10021,CUST1021,Neha Kumar,45.0,Toronto,Electronics,338.32,1,2024-02-01,Cash,
+ORD10056,CUST1056,,21.0,Chicago,Books,109.77,4,2024-06-21,CASH,4.0
+ORD10320,CUST1100,Sophia Smith,,Pune,Home & Kitchen,173.68,2,2025-04-15,CASH,
+ORD10462,CUST1022,Fatima Iyer,,mumbai,Beauty,408.02,3,2025-02-15,Debit Card,5.0
+ORD10368,CUST1148,Priya Davis,58.0, Pune,Electronics,298.99,1,2024-12-04,Credit Card,
+ORD10035,CUST1035,Priya Lee,41.0,London,Beauty,342.62,1,2024-06-30,CASH,5.0
+ORD10182,CUST1182,Anna Davis,26.0,Dubai,Clothing,162.96,-1,2024-03-03,UPI,4.0
+ORD10185,CUST1185,Emma Brown,55.0,Mumbai,Electronics,144.27,-1,2024-05-26,Net Banking,1.0
+ORD10151,CUST1151,Priya Nair,41.0,Delhi,Clothing,146.11,2,2024-05-19,Cash,5.0
+ORD10208,CUST1208,Liam Smith,34.0,DELHI,Beauty,35.75,1,2024-08-26,UPI,2.0
+ORD10352,CUST1132,Lisa Gupta,45.0,Bangalore ,Books,232.2,2,2024-08-26,UPI,
+ORD10095,CUST1095,Mohammed Nair,52.0,Singapore,Clothing,121.21,3,2024-04-26,credit card,1.0
+ORD10377,CUST1157,David Davis,47.0,,Toys,346.5,-1,2025-02-13,Cash,
+ORD10303,CUST1083,Wei Gupta,23.0,Pune,Toys,351.92,4,2024-08-22,credit card,1.0
+ORD10098,CUST1098,David Moore,61.0,Toronto,Home & Kitchen,119.93,3,23/08/2024,UPI,
+ORD10236,CUST1016,Carlos Moore,51.0,Bangalore ,Books,137.33,5,2024-02-10,UPI,4.0
+ORD10405,CUST1185,Aisha Moore,33.0,mumbai,Books,193.78,1,2024-07-16,UPI,5.0
+ORD10442,CUST1002,Mia Nair,29.0,Dubai,Grocery,130.62,3,2024-10-22,UPI,
+ORD10155,CUST1155,Aisha Reddy,45.0, Pune,Sports,122.63,1,2024-01-25,Debit Card,4.0
+ORD10123,CUST1123,Neha Sharma,,New York,Books,56.28,2,2024-03-20,credit card,4.0
+ORD10339,CUST1119,Neha Brown,70.0,Bangalore ,Sports,163.28,1,2024-02-14,Cash,5.0
+ORD10079,CUST1079,Lisa Moore,,New York,Grocery,66.56,3,2024-12-24,Cash,3.0
+ORD10062,CUST1062,Amit Reddy,59.0,Mumbai,Toys,412.05,1,2024-08-09,UPI,
+ORD10476,CUST1036,Neha Gupta,27.0,Mumbai,Electronics,264.04,2,2024-06-25,UPI,4.0
+ORD10126,CUST1126,Anna Smith,29.0,Singapore,Toys,39.44,1,2024-02-16,credit card,5.0
+ORD10319,CUST1099,Carlos Nair,52.0,Bangalore,Grocery,23.79,1,29/04/2024,Net Banking,2.0
+ORD10317,CUST1097,Emma Gupta,52.0, Pune,Beauty,289.97,5,2024-06-30,CASH,
+ORD10496,CUST1056,Sophia Brown,24.0,Singapore,Toys,330.67,3,2024-01-26,UPI,2.0
+ORD10431,CUST1211,Fatima Singh,19.0,Mumbai,Home & Kitchen,288.88,2,09/03/2024,credit card,5.0
+ORD10451,CUST1011,Arjun Gupta,,New York,Grocery,483.2,-1,2025-01-29,Debit Card,
+ORD10418,CUST1198,Lisa Iyer,,Singapore,Books,404.81,5,2024-03-27,Credit Card,3.0
+ORD10025,CUST1025,Tom Lee,45.0,mumbai,Grocery,81.62,3,2024-04-21,Credit Card,5.0
+ORD10329,CUST1109,Mohammed Gupta,24.0,London,Home & Kitchen,444.53,2,2025-01-09,Credit Card,5.0
+ORD10440,CUST1000,David Brown,62.0,Chicago,Books,57.76,5,2024-11-29,Net Banking,3.0
+ORD10323,CUST1103,Sophia Ali,29.0,DELHI,Books,115.5,2,2024-07-12,UPI,
+ORD10127,CUST1127,Neha Wilson,39.0,London,Sports,362.19,1,2025-03-28,Credit Card,2.0
+ORD10424,CUST1204,,66.0,Bangalore,Grocery,83.82,2,2025-01-11,credit card,4.0
+ORD10328,CUST1108,Sara Nair,,mumbai,Beauty,85.51,1,2025-02-13,CASH,1.0
+ORD10179,CUST1179,John Patel,,New York,Beauty,384.64,5,2024-11-12,credit card,1.0
+ORD10444,CUST1004,Priya Garcia,42.0, Pune,Clothing,412.51,-1,2025-04-19,Net Banking,4.0
+ORD10381,CUST1161,Arjun Moore,24.0,mumbai,Beauty,243.56,5,2024-03-17,CASH,
+ORD10224,CUST1004,David Johnson,34.0,London,Clothing,461.5,4,2024-02-17,Net Banking,
+ORD10359,CUST1139,Mohammed Kumar,,New York,Grocery,426.35,-1,2024-01-28,CASH,
+ORD10094,CUST1094,Amit Nair,68.0,London,Toys,326.67,4,2025-03-12,credit card,
+ORD10070,CUST1070,Arjun Moore,36.0,Bangalore ,Beauty,151.64,4,2024-04-01,UPI,1.0
+ORD10037,CUST1037,Mohammed Singh,69.0,New York,Home & Kitchen,394.75,1,2024-07-14,CASH,1.0
+ORD10161,CUST1161,Wei Patel,63.0,Mumbai,Sports,104.79,2,2025-03-29,Credit Card,3.0
+ORD10012,CUST1012,Neha Moore,22.0,Chicago,Grocery,266.91,1,2024-12-14,credit card,1.0
+ORD10145,CUST1145,Arjun Patel,59.0,Dubai,Books,14.02,3,2024-04-02,Debit Card,3.0
+ORD10361,CUST1141,Wei Chen,30.0,Chicago,Grocery,75.9,2,2025-02-02,Credit Card,4.0
+ORD10128,CUST1128,Aisha Sharma,61.0,New York,Grocery,332.66,-1,2024-11-06,Cash,4.0
+ORD10448,CUST1008,Fatima Patel,35.0,London,Toys,205.7,2,2024-09-22,Credit Card,
+ORD10010,CUST1010,Sophia Davis,59.0,Bangalore,Sports,74.12,3,2025-01-17,Net Banking,4.0
+ORD10382,CUST1162,Aisha Sharma,18.0,Dubai,Grocery,426.68,2,2024-02-08,CASH,4.0
+ORD10177,CUST1177,Emma Kumar,51.0,Bangalore ,Clothing,129.05,3,2024-03-05,credit card,3.0
+ORD10232,CUST1012,,59.0,Dubai,Electronics,420.34,1,28/04/2025,CASH,
+ORD10211,CUST1211,Amit Iyer,25.0,Bangalore ,Beauty,288.49,2,2024-03-25,UPI,
+ORD10129,CUST1129,Arjun Khan,40.0,Delhi,Sports,340.72,-1,26/09/2024,credit card,3.0
+ORD10144,CUST1144,Anna Lee,59.0,Bangalore,Clothing,158.24,5,2024-11-25,CASH,3.0
+ORD10242,CUST1022,Anna Sharma,24.0,Pune,Clothing,173.59,5,11/05/2025,CASH,3.0
+ORD10008,CUST1008,Amit Moore,58.0,Dubai,Beauty,85.88,5,2024-05-18,credit card,
+ORD10299,CUST1079,Priya Garcia,32.0,,Toys,39.12,-1,2025-03-19,UPI,
+ORD10255,CUST1035,Mia Moore,58.0,Delhi,Beauty,330.51,4,26/03/2024,credit card,5.0
+ORD10378,CUST1158,Fatima Khan,26.0,Bangalore ,Home & Kitchen,56.34,-1,2025-02-14,Net Banking,
+ORD10342,CUST1122,Sophia Iyer,56.0,Mumbai,Home & Kitchen,141.33,2,2024-11-12,Net Banking,
+ORD10009,CUST1009,Mohammed Sharma,32.0, Pune,Books,203.58,1,2024-04-18,Net Banking,
+ORD10157,CUST1157,Wei Lee,45.0,Singapore,Books,124.08,5,2024-04-05,credit card,
+ORD10028,CUST1028,Neha Iyer,54.0,London,Sports,106.11,4,2024-05-02,UPI,4.0
+ORD10267,CUST1047,John Nair,26.0,Bangalore ,Toys,482.1,-1,2024-07-28,credit card,4.0
+ORD10065,CUST1065,John Nair,38.0,Toronto,Beauty,180.64,3,2024-06-23,UPI,5.0
+ORD10256,CUST1036,David Ali,68.0,Delhi,Electronics,53.81,2,2024-09-18,credit card,5.0
+ORD10325,CUST1105,Aisha Johnson,,Delhi,Grocery,74.62,1,2024-05-01,UPI,3.0
+ORD10154,CUST1154,Sophia Chen,66.0,Toronto,Electronics,453.4,1,2024-05-11,Debit Card,
+ORD10049,CUST1049,Tom Reddy,,London,Grocery,308.26,5,2025-03-01,Net Banking,4.0
+ORD10209,CUST1209,Arjun Lee,62.0,mumbai,Sports,186.93,2,2024-04-22,Debit Card,4.0
+ORD10288,CUST1068,David Lee,59.0, Pune,Beauty,249.97,1,2024-05-03,Cash,
+ORD10002,CUST1002,,19.0,Pune,Beauty,255.15,1,2024-10-14,Debit Card,
+ORD10270,CUST1050,Anna Clark,70.0, Pune,Grocery,275.44,5,2024-02-22,credit card,
+ORD10266,CUST1046,Fatima Clark,28.0,New York,Home & Kitchen,97.61,-1,2024-11-13,Credit Card,
+ORD10334,CUST1114,Sophia Nair,60.0,Delhi,Toys,96.52,5,08/07/2024,Debit Card,4.0
+ORD10341,CUST1121,Liam Iyer,66.0,Delhi,Clothing,393.94,4,2025-03-25,Cash,3.0
+ORD10096,CUST1096,Sara Khan,46.0,DELHI,Sports,452.19,1,2024-06-15,CASH,1.0
+ORD10473,CUST1033,Tom Chen,26.0,Bangalore ,Home & Kitchen,19.14,4,2025-03-16,UPI,
+ORD10305,CUST1085,David Ali,38.0,New York,Beauty,41.97,2,2024-03-10,CASH,
+ORD10091,CUST1091,Mia Davis,47.0,Bangalore ,Beauty,490.48,2,2024-10-19,Cash,2.0
+ORD10117,CUST1117,Lisa Wilson,59.0,Mumbai,Grocery,424.41,5,2024-12-17,Credit Card,4.0
+ORD10046,CUST1046,Lisa Johnson,69.0,Bangalore,Electronics,27.88,-1,2024-11-08,CASH,
+ORD10162,CUST1162,Arjun Davis,70.0,Toronto,Sports,23.13,2,2024-05-26,UPI,
+ORD10499,CUST1059,Arjun Khan,24.0,Dubai,Toys,98.78,2,2024-10-18,credit card,2.0
+ORD10118,CUST1118,Tom Patel,23.0,Singapore,Home & Kitchen,37.51,3,2024-11-15,credit card,5.0
+ORD10289,CUST1069,Arjun Smith,41.0,Bangalore,Toys,431.1,5,2024-07-06,Net Banking,
+ORD10078,CUST1078,,45.0,Dubai,Beauty,325.58,3,2025-02-27,Debit Card,1.0
+ORD10402,CUST1182,Aisha Lee,,Dubai,Books,41.08,4,2024-09-26,Debit Card,2.0
+ORD10064,CUST1064,Raj Ali,33.0,New York,Grocery,125.71,-1,2024-10-18,Net Banking,
+ORD10459,CUST1019,David Garcia,47.0,DELHI,Grocery,161.25,1,2024-01-07,credit card,2.0
+ORD10397,CUST1177,Mia Sharma,40.0,Delhi,Beauty,372.49,5,2024-05-01,Net Banking,
+ORD10231,CUST1011,Mia Ali,34.0,DELHI,Grocery,233.11,4,2024-03-27,Debit Card,
+ORD10298,CUST1078,Neha Johnson,38.0,Chicago,Books,139.27,1,2024-10-19,UPI,1.0
+ORD10187,CUST1187,Mia Lee,22.0,Dubai,Grocery,383.38,3,2025-02-26,Net Banking,
+ORD10120,CUST1120,Mia Brown,45.0,Pune,Toys,172.77,-1,2024-07-23,Cash,
+ORD10200,CUST1200,Emma Johnson,21.0,Chicago,Books,360.09,1,14/12/2024,CASH,2.0
+ORD10351,CUST1131,Arjun Smith,67.0,Toronto,Home & Kitchen,325.45,1,2024-04-24,UPI,5.0
+ORD10122,CUST1122,Neha Khan,65.0, Pune,Home & Kitchen,280.4,4,2024-12-09,Credit Card,4.0
+ORD10479,CUST1039,Neha Johnson,, Pune,Sports,145.92,3,2024-07-30,Debit Card,
+ORD10443,CUST1003,Wei Khan,65.0,Toronto,Home & Kitchen,54.64,5,2025-02-06,UPI,
+ORD10308,CUST1088,Amit Johnson,40.0,Dubai,Electronics,340.21,3,2025-02-23,Debit Card,1.0
+ORD10472,CUST1032,Arjun Patel,24.0,Singapore,Home & Kitchen,46.73,5,2024-06-07,Debit Card,2.0
+ORD10159,CUST1159,Raj Smith,40.0,London,Beauty,367.81,1,2025-01-30,Net Banking,
+ORD10086,CUST1086,Lisa Wilson,62.0,Delhi,Electronics,486.71,2,2024-12-29,Debit Card,3.0
+ORD10226,CUST1006,Mia Brown,48.0,Bangalore ,Books,155.08,1,2024-04-18,Debit Card,
+ORD10263,CUST1043,Raj Nair,51.0,Singapore,Toys,307.6,1,2024-06-27,UPI,
+ORD10332,CUST1112,Mia Nair,27.0,London,Electronics,216.66,3,2025-02-25,credit card,
+ORD10411,CUST1191,Amit Iyer,20.0,London,Clothing,148.47,3,2024-11-06,Credit Card,3.0
+ORD10077,CUST1077,Emma Lee,63.0,DELHI,Grocery,40.23,2,2025-04-18,UPI,
+ORD10398,CUST1178,,42.0,Chicago,Books,483.09,1,2024-01-07,credit card,3.0
+ORD10383,CUST1163,Mohammed Gupta,21.0,Pune,Toys,204.62,2,2024-02-10,Cash,4.0
+ORD10088,CUST1088,Lisa Reddy,63.0,Chicago,Grocery,490.22,2,2024-08-21,Net Banking,2.0
+ORD10306,CUST1086,Wei Khan,28.0,Toronto,Books,206.22,4,2025-05-08,CASH,2.0
+ORD10183,CUST1183,Sara Sharma,36.0,Bangalore ,Toys,127.89,2,2025-02-20,UPI,5.0
+ORD10106,CUST1106,David Clark,41.0, Pune,Toys,11.89,1,2024-08-20,UPI,
+ORD10409,CUST1189,Mohammed Sharma,23.0,Mumbai,Home & Kitchen,398.14,1,2024-10-21,CASH,2.0
+ORD10050,CUST1050,Sophia Wilson,34.0,Bangalore ,Sports,384.08,-1,2024-11-16,Debit Card,3.0
+ORD10390,CUST1170,Arjun Chen,49.0,Dubai,Electronics,278.85,5,2025-03-05,Net Banking,4.0
+ORD10006,CUST1006,Aisha Kumar,54.0,DELHI,Clothing,27.68,2,2025-01-30,UPI,1.0
+ORD10018,CUST1018,Anna Wilson,51.0,Delhi,Beauty,116.23,4,2024-01-11,Net Banking,5.0
+ORD10235,CUST1015,Mia Lee,19.0,Bangalore ,Toys,404.05,2,2024-02-24,Credit Card,5.0
+ORD10413,CUST1193,Mia Lee,58.0,New York,Books,478.91,1,2024-10-10,CASH,5.0
+ORD10407,CUST1187,Amit Khan,28.0,Dubai,Electronics,315.33,2,2024-12-09,credit card,
+ORD10107,CUST1107,Raj Iyer,42.0,Delhi,Beauty,238.38,4,2025-04-13,Net Banking,2.0
+ORD10135,CUST1135,Emma Ali,67.0,Delhi,Clothing,267.65,2,2025-04-08,CASH,3.0
+ORD10414,CUST1194,Priya Smith,,Chicago,Clothing,155.82,4,2024-04-18,Cash,
+ORD10227,CUST1007,Sophia Johnson,,DELHI,Beauty,201.33,2,2024-10-09,UPI,
+ORD10215,CUST1215,Sophia Sharma,36.0,Bangalore,Home & Kitchen,384.08,5,2024-07-10,Cash,4.0
+ORD10191,CUST1191,Mia Nair,,New York,Grocery,408.8,4,2024-06-18,credit card,1.0
+ORD10453,CUST1013,Emma Ali,44.0,Dubai,Electronics,351.91,3,2024-05-07,UPI,1.0
+ORD10321,CUST1101,Priya Smith,,DELHI,Home & Kitchen,388.31,4,2025-05-06,Credit Card,3.0
+ORD10283,CUST1063,Mohammed Khan,45.0,Toronto,Clothing,118.33,1,2025-01-09,CASH,1.0
+ORD10030,CUST1030,Wei Kumar,22.0,London,Sports,83.08,3,2024-11-09,CASH,
+ORD10170,CUST1170,David Clark,25.0, Pune,Sports,353.5,2,2024-11-09,UPI,
+ORD10181,CUST1181,Fatima Wilson,44.0,Toronto,Beauty,173.4,2,2024-06-09,CASH,
+ORD10101,CUST1101,Lisa Smith,60.0,New York,Electronics,285.13,1,2025-04-11,Net Banking,
+ORD10198,CUST1198,Wei Lee,20.0,DELHI,Clothing,176.45,-1,2024-12-01,UPI,
+ORD10210,CUST1210,Aisha Kumar,44.0,Toronto,Beauty,382.12,1,2024-09-26,Cash,5.0
+ORD10136,CUST1136,Wei Johnson,24.0,New York,Beauty,90.88,2,2025-01-24,CASH,
+ORD10484,CUST1044,Raj Davis,18.0, Pune,Beauty,195.47,-1,2024-05-06,credit card,1.0
+ORD10441,CUST1001,Mia Singh,54.0,Singapore,Sports,495.94,5,2025-01-21,Debit Card,4.0
+ORD10199,CUST1199,Carlos Clark,35.0,DELHI,Sports,72.95,2,2024-05-04,Credit Card,
+ORD10374,CUST1154,Sara Gupta,59.0,Toronto,Sports,135.74,1,2024-02-21,CASH,2.0
+ORD10167,CUST1167,Fatima Smith,,mumbai,Grocery,22.23,1,2024-04-30,CASH,
+ORD10395,CUST1175,,36.0, Pune,Electronics,263.75,1,2024-07-14,Debit Card,1.0
+ORD10137,CUST1137,Sophia Wilson,, Pune,Grocery,342.16,4,2025-03-18,credit card,3.0
+ORD10286,CUST1066,Wei Khan,55.0,London,Toys,160.68,2,2024-05-06,UPI,
+ORD10336,CUST1116,Anna Clark,,Pune,Electronics,421.19,5,2025-05-09,Net Banking,
+ORD10132,CUST1132,Anna Patel,43.0,Chicago,Electronics,232.58,1,2025-03-17,UPI,5.0
+ORD10040,CUST1040,Raj Garcia,55.0,Mumbai,Clothing,300.3,4,2025-01-08,CASH,3.0
+ORD10216,CUST1216,David Davis,23.0,Bangalore,Books,63.72,5,2024-09-27,Debit Card,
+ORD10044,CUST1044,Lisa Davis,53.0,New York,Sports,109.04,4,2024-08-26,Cash,4.0
+ORD10055,CUST1055,David Garcia,47.0,Singapore,Electronics,453.93,1,2024-02-12,credit card,4.0
+ORD10488,CUST1048,John Sharma,55.0,DELHI,Home & Kitchen,188.84,1,2024-05-07,Debit Card,4.0
+ORD10300,CUST1080,Mohammed Patel,53.0,Mumbai,Books,104.33,3,2025-01-13,Net Banking,2.0
+ORD10468,CUST1028,Mohammed Singh,,Singapore,Toys,425.21,1,2024-02-10,Debit Card,3.0
+ORD10305,CUST1085,David Ali,38.0,New York,Beauty,41.97,2,2024-03-10,CASH,
+ORD10036,CUST1036,Neha Moore,65.0,Pune,Home & Kitchen,488.22,2,2025-03-27,Cash,1.0
+ORD10316,CUST1096,Raj Sharma,69.0,Dubai,Books,384.59,2,2025-05-13,Debit Card,1.0
+ORD10400,CUST1180,,29.0,Delhi,Toys,25.11,3,2024-10-11,UPI,2.0
+ORD10310,CUST1090,Emma Chen,30.0,London,Clothing,293.25,3,14/04/2025,CASH,1.0
+ORD10277,CUST1057,Mohammed Iyer,18.0,DELHI,Grocery,319.25,4,2025-03-11,Credit Card,
+ORD10125,CUST1125,Aisha Clark,,mumbai,Sports,19.33,3,2024-12-25,CASH,3.0
+ORD10143,CUST1143,Mohammed Khan,53.0,New York,Sports,363.25,2,2024-06-19,Credit Card,5.0
+ORD10111,CUST1111,Anna Clark,59.0,Mumbai,Toys,141.56,1,2025-04-30,CASH,
+ORD10324,CUST1104,Wei Garcia,64.0,DELHI,Toys,426.12,1,2024-04-03,Net Banking,3.0
+ORD10333,CUST1113,Carlos Khan,19.0,Bangalore,Sports,488.64,-1,2025-03-08,Credit Card,3.0
+ORD10394,CUST1174,Anna Chen,63.0,Dubai,Books,356.62,4,2024-10-14,Cash,5.0
+ORD10474,CUST1034,,53.0,Bangalore,Home & Kitchen,297.46,-1,2024-11-19,credit card,
+ORD10108,CUST1108,Tom Lee,59.0,Delhi,Home & Kitchen,27.45,1,2024-06-04,Cash,1.0
+ORD10456,CUST1016,Aisha Kumar,27.0,Delhi,Clothing,339.53,-1,2024-11-10,Credit Card,
+ORD10013,CUST1013,Mia Gupta,67.0,Delhi,Sports,220.21,-1,2024-01-02,credit card,
+ORD10273,CUST1053,Carlos Sharma,54.0,Dubai,Sports,300.44,2,2024-06-14,credit card,3.0
+ORD10048,CUST1048,Sara Singh,32.0, Pune,Grocery,29.86,2,2025-04-14,CASH,1.0
+ORD10204,CUST1204,,47.0,Dubai,Grocery,445.18,2,2025-03-11,Net Banking,4.0
+ORD10478,CUST1038,Neha Clark,45.0,Pune,Home & Kitchen,358.89,5,2025-02-28,Cash,2.0
+ORD10120,CUST1120,Mia Brown,45.0,Pune,Toys,172.77,-1,2024-07-23,Cash,
+ORD10022,CUST1022,Sara Johnson,30.0,Dubai,Grocery,74.39,2,2024-05-22,Cash,2.0
+ORD10403,CUST1183,Arjun Garcia,44.0,Dubai,Toys,50.51,2,2025-03-28,Debit Card,
+ORD10084,CUST1084,Amit Ali,34.0,Delhi,Toys,433.13,1,2024-12-02,CASH,5.0
+ORD10131,CUST1131,John Nair,65.0,Bangalore,Home & Kitchen,193.2,2,2024-09-13,Net Banking,
+ORD10457,CUST1017,Priya Nair,,London,Grocery,449.57,3,2024-09-08,Debit Card,
+ORD10494,CUST1054,Amit Clark,70.0,Pune,Grocery,384.04,2,2024-11-09,UPI,3.0
+ORD10330,CUST1110,Amit Ali,,Toronto,Electronics,218.51,2,2024-11-06,Cash,2.0
+ORD10230,CUST1010,Liam Iyer,64.0,New York,Home & Kitchen,102.11,2,2024-07-13,Net Banking,
+ORD10311,CUST1091,Amit Brown,59.0, Pune,Home & Kitchen,50.53,4,2024-03-03,Credit Card,4.0
+ORD10287,CUST1067,Mia Moore,,New York,Electronics,424.71,3,2024-04-15,Net Banking,5.0
+ORD10124,CUST1124,Sara Kumar,53.0,Delhi,Sports,289.18,5,2025-03-08,Net Banking,
+ORD10034,CUST1034,Neha Clark,18.0,Delhi,Home & Kitchen,275.07,4,2024-10-25,Net Banking,2.0
+ORD10486,CUST1046,Priya Clark,51.0,New York,Grocery,321.07,2,2024-07-03,Credit Card,
+ORD10005,CUST1005,Raj Sharma,64.0,Dubai,Clothing,486.69,5,2024-02-10,Net Banking,3.0
+ORD10412,CUST1192,Tom Davis,43.0,Toronto,Home & Kitchen,269.07,2,2025-01-17,Cash,
+ORD10020,CUST1020,Sophia Brown,52.0,DELHI,Grocery,125.28,-1,2025-02-17,Cash,2.0
+ORD10220,CUST1000,Arjun Lee,,London,Books,122.27,2,2024-12-04,Net Banking,2.0
+ORD10380,CUST1160,Tom Sharma,22.0,mumbai,Books,11.12,2,2025-05-15,credit card,
+ORD10169,CUST1169,Arjun Kumar,43.0,mumbai,Sports,128.56,1,2024-01-14,credit card,2.0
+ORD10420,CUST1200,Mia Khan,,Delhi,Sports,430.06,2,2025-04-01,Net Banking,2.0
+ORD10357,CUST1137,Anna Reddy,37.0,Bangalore ,Home & Kitchen,150.42,-1,2024-03-06,credit card,3.0
+ORD10150,CUST1150,Tom Lee,67.0,Dubai,Toys,483.3,2,2025-02-14,Net Banking,2.0
+ORD10225,CUST1005,Priya Gupta,,Singapore,Electronics,437.44,2,2025-02-15,CASH,5.0
+ORD10248,CUST1028,Wei Patel,28.0,New York,Toys,153.38,1,2024-07-03,UPI,2.0
+ORD10454,CUST1014,Mohammed Patel,53.0,Toronto,Books,180.0,3,2024-04-03,credit card,
+ORD10152,CUST1152,Neha Patel,32.0,London,Electronics,210.37,5,2024-09-14,UPI,2.0
+ORD10493,CUST1053,Anna Wilson,18.0,Chicago,Home & Kitchen,442.05,4,2025-02-01,Net Banking,2.0
+ORD10318,CUST1098,Emma Iyer,38.0,Singapore,Electronics,353.21,4,2025-04-30,Net Banking,5.0
+ORD10292,CUST1072,Carlos Chen,52.0,Chicago,Clothing,158.53,5,2025-01-08,CASH,2.0
+ORD10234,CUST1014,Aisha Nair,60.0,Mumbai,Electronics,268.45,5,2024-01-07,Credit Card,5.0
+ORD10011,CUST1011,David Kumar,32.0,Dubai,Grocery,50.0,1,2025-03-16,Credit Card,2.0
+ORD10280,CUST1060,,45.0,DELHI,Home & Kitchen,441.66,3,2024-03-22,CASH,3.0
+ORD10072,CUST1072,John Iyer,36.0,Toronto,Grocery,173.65,1,2024-05-09,CASH,4.0
+ORD10253,CUST1033,Lisa Patel,70.0,mumbai,Grocery,73.89,3,2024-05-03,UPI,
+ORD10093,CUST1093,Liam Ali,24.0,Delhi,Grocery,12.6,2,2024-07-28,CASH,
+ORD10492,CUST1052,Mohammed Wilson,,Bangalore ,Home & Kitchen,39.09,2,2024-08-18,UPI,
+ORD10350,CUST1130,John Davis,21.0,Bangalore ,Beauty,429.27,2,2024-12-12,Debit Card,3.0
+ORD10416,CUST1196,Mia Wilson,59.0,Delhi,Sports,337.48,3,2024-02-20,Debit Card,
+ORD10375,CUST1155,Lisa Kumar,69.0,Chicago,Clothing,52.02,1,2024-01-05,CASH,2.0
+ORD10401,CUST1181,Raj Smith,39.0,DELHI,Home & Kitchen,24.77,4,2024-11-01,Credit Card,
+ORD10193,CUST1193,Arjun Moore,67.0,Bangalore,Beauty,20.63,1,2024-04-07,Credit Card,4.0
+ORD10258,CUST1038,Neha Patel,25.0,London,Sports,174.82,2,2024-09-23,Cash,3.0
+ORD10495,CUST1055,Mohammed Khan,24.0,mumbai,Clothing,26.67,2,2024-04-01,CASH,1.0
+ORD10340,CUST1120,Mohammed Gupta,51.0,Bangalore ,Electronics,394.34,5,2024-02-27,Cash,2.0
+ORD10068,CUST1068,Mia Reddy,40.0,DELHI,Books,179.15,-1,2024-05-18,UPI,3.0
+ORD10196,CUST1196,Raj Moore,48.0,Pune,Sports,281.25,2,2025-04-27,UPI,
+ORD10344,CUST1124,Lisa Gupta,49.0,Bangalore ,Beauty,71.52,-1,2025-01-31,CASH,3.0
+ORD10138,CUST1138,Amit Nair,46.0, Pune,Sports,297.75,4,2024-09-16,Credit Card,3.0
+ORD10261,CUST1041,Fatima Garcia,58.0,Chicago,Electronics,370.01,2,2024-08-18,Net Banking,4.0
+ORD10039,CUST1039,Mohammed Gupta,22.0,London,Toys,341.36,4,2025-04-25,Credit Card,1.0
+ORD10463,CUST1023,David Brown,27.0,Toronto,Electronics,92.42,-1,2024-03-09,CASH,
+ORD10202,CUST1202,Amit Iyer,32.0,DELHI,Electronics,457.05,2,2024-08-01,CASH,2.0
+ORD10481,CUST1041,Mia Smith,29.0,New York,Sports,66.89,-1,2025-01-07,Credit Card,2.0
+ORD10291,CUST1071,Lisa Reddy,67.0,Chicago,Toys,45.8,2,2024-05-22,Credit Card,3.0
+ORD10449,CUST1009,Amit Clark,36.0,Singapore,Books,177.0,3,2024-04-25,Net Banking,2.0
+ORD10190,CUST1190,Arjun Chen,,London,Home & Kitchen,199.51,3,2024-10-30,UPI,5.0
+ORD10252,CUST1032,Liam Brown,55.0,Bangalore,Electronics,476.74,-1,2025-04-27,credit card,2.0
+ORD10113,CUST1113,Mia Brown,55.0,Bangalore ,Beauty,167.64,2,2025-02-07,Net Banking,1.0
+ORD10438,CUST1218,David Kumar,,Delhi,Toys,71.27,-1,2025-01-27,Debit Card,
+ORD10184,CUST1184,,49.0,Toronto,Grocery,440.14,-1,2024-01-12,Credit Card,4.0
+ORD10153,CUST1153,Amit Kumar,32.0,London,Clothing,420.39,4,09/02/2025,Debit Card,2.0
+ORD10313,CUST1093,Raj Gupta,46.0,Mumbai,Beauty,325.4,-1,2024-07-29,Net Banking,4.0
+ORD10326,CUST1106,Amit Ali,46.0,New York,Beauty,128.52,1,2024-06-28,UPI,
+ORD10192,CUST1192,Liam Lee,68.0,Singapore,Grocery,136.44,2,2025-01-04,Credit Card,5.0
+ORD10045,CUST1045,Arjun Nair,68.0,mumbai,Clothing,145.47,4,2024-02-17,CASH,
+ORD10445,CUST1005,Raj Johnson,41.0,Singapore,Electronics,363.62,5,2024-11-10,credit card,5.0
+ORD10276,CUST1056,Neha Davis,46.0,mumbai,Clothing,204.41,3,2024-12-21,UPI,4.0
+ORD10007,CUST1007,Sara Davis,35.0,mumbai,Books,85.51,4,2024-04-17,credit card,3.0
+ORD10251,CUST1031,Mohammed Lee,65.0,Singapore,Beauty,166.31,3,2025-02-22,CASH,4.0
+ORD10312,CUST1092,Liam Singh,70.0,Toronto,Electronics,194.45,5,2024-03-29,UPI,2.0
+ORD10076,CUST1076,Fatima Johnson,29.0,Delhi,Home & Kitchen,6.32,-1,2024-12-18,Net Banking,4.0
+ORD10001,CUST1001,Sara Smith,65.0,Pune,Beauty,74.07,1,2024-12-12,credit card,5.0
+ORD10429,CUST1209,John Reddy,26.0,Bangalore,Beauty,43.16,3,2024-04-18,Debit Card,2.0
+ORD10392,CUST1172,Emma Gupta,43.0,New York,Grocery,403.37,2,2024-07-30,Net Banking,
+ORD10384,CUST1164,Tom Patel,49.0,London,Clothing,490.43,1,22/02/2024,Cash,4.0
+ORD10433,CUST1213,Lisa Patel,31.0,Singapore,Grocery,434.31,2,2024-04-22,CASH,4.0
+ORD10069,CUST1069,Carlos Ali,25.0, Pune,Home & Kitchen,99.81,-1,2024-05-21,credit card,5.0
+ORD10487,CUST1047,Sara Johnson,58.0,London,Electronics,87.84,3,2024-10-26,Credit Card,4.0
+ORD10168,CUST1168,David Iyer,,Bangalore,Grocery,474.67,4,2024-08-15,CASH,1.0
+ORD10393,CUST1173,Arjun Lee,62.0,Bangalore ,Books,357.38,2,2024-04-12,Debit Card,5.0
+ORD10219,CUST1219,Priya Johnson,65.0,,Grocery,121.0,2,2025-01-21,CASH,
+ORD10043,CUST1043,Neha Ali,43.0,Dubai,Home & Kitchen,99.96,5,2024-12-12,credit card,2.0
+ORD10367,CUST1147,David Smith,32.0,DELHI,Home & Kitchen,109.54,1,2024-10-28,Net Banking,2.0
+ORD10346,CUST1126,Anna Sharma,50.0,Delhi,Sports,356.24,5,2024-03-10,CASH,
+ORD10073,CUST1073,Amit Davis,49.0,Singapore,Electronics,80.1,3,2024-02-13,Debit Card,1.0
+ORD10024,CUST1024,Fatima Singh,49.0,Pune,Toys,451.71,2,2024-07-13,Credit Card,4.0
+ORD10399,CUST1179,Tom Johnson,58.0, Pune,Beauty,389.19,2,2024-05-30,Cash,2.0
+ORD10186,CUST1186,Neha Chen,34.0, Pune,Toys,186.14,5,2024-01-27,Net Banking,5.0
+ORD10349,CUST1129,Aisha Wilson,29.0,Singapore,Books,175.4,3,2025-01-18,CASH,
+ORD10104,CUST1104,Wei Clark,41.0,Dubai,Sports,416.08,3,2025-04-12,CASH,4.0
+ORD10408,CUST1188,Neha Khan,31.0,Bangalore ,Toys,325.05,1,17/01/2025,credit card,2.0
+ORD10212,CUST1212,Sara Brown,,Toronto,Clothing,449.95,-1,2025-02-18,Credit Card,4.0
+ORD10068,CUST1068,Mia Reddy,40.0,DELHI,Books,179.15,-1,2024-05-18,UPI,3.0
+ORD10048,CUST1048,Sara Singh,32.0, Pune,Grocery,29.86,2,2025-04-14,CASH,1.0
+ORD10197,CUST1197,Carlos Nair,38.0,London,Sports,147.46,5,2025-04-03,Cash,
+ORD10176,CUST1176,Liam Garcia,67.0,Chicago,Electronics,416.54,2,2024-06-04,Debit Card,2.0
